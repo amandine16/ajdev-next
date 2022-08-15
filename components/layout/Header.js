@@ -89,14 +89,14 @@ export default function Header() {
                                                 aria-current={item.current ? 'page' : undefined}
                                                 className={classNames(
                                                     item.current ? '' : '',
-                                                    ' block rounded-md  px-3 text-base font-medium  drop-shadow-xl text-black uppercase text-[16px]'
+                                                    ' block rounded-md  px-3 text-base font-medium   text-black uppercase text-[16px]'
                                                 )}
                                                 onClick={reloadPath}
                                             >
                                                 {item.name}
                                                 <div className={classNames(
                                                     item.current ? 'flex' : 'hidden',
-                                                    'bg-green w-2 h-2 rounded-full drop-shadow m-auto'
+                                                    'bg-green w-2 h-2 rounded-full drop-shadow mt-1 m-auto'
                                                 )}></div>
                                             </a>
                                         </Link>

@@ -3,6 +3,7 @@ import * as React from "react"
 import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
+import CallWe from "./CallWe";
 
 
 
@@ -25,7 +26,8 @@ export default function Layout(props) {
 
             <Header />
 
-            <main>{children}</main>
+            <main className="bg-white">{children}     </main>
+
 
             <Footer />
         </>

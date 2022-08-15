@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: "Poppins", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 }
 
 a {
@@ -17,6 +18,25 @@ a {
 
 * {
   box-sizing: border-box;
+
+}
+.line {
+    /* width: 60%; */
+    /* height: 100px; */
+    position:relative;
+    text-align:center;
+    margin-right:30px;
+}
+.line:after {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px solid #694BC4;
+  transform: translate(-50%);
+  border-radius: 80px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +47,30 @@ a {
     color: white;
     background: black;
   }
+}
+
+@layer utilities {
+  @variants hover, focus {
+    .anim-scale-xs {
+      transform: scale(1.03);
+      transition-property: all;
+      transition-duration: 500ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    },
+    .anim-opacity {
+      opacity: 1;
+      transition-property: all;
+      transition-duration: 500ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+.anim-opacity-simple {
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @font-face {

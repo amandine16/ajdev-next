@@ -8,11 +8,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        green:"#5BE1CB",
-        pink:"#C95BBB",
-        purple:"#694BC4",
-        "gray-1":"#F6F9FD"
+      fontSize: {
+        sm: ['14px', '14px'],
+        base: ['14px', '16px'],
+        md: ['18px', '20px'],
+        lg: ['16px', '18px'],
+        xl: ['36px', '40px'],
+      },
+      colors: {
+        green: "#5BE1CB",
+        pink: "#C95BBB",
+        purple: "#694BC4",
+        "gray-1": "#F6F9FD",
+        "gray-2": "#4F4E4E"
       },
       fontFamily: {
         sans: ["Poppins"],
@@ -35,5 +43,5 @@ module.exports = {
     },
   },
 
-  plugins: [ require('@tailwindcss/forms'),],
+  plugins: [require('@tailwindcss/forms'),],
 }
