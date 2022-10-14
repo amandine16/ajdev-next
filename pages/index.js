@@ -3,7 +3,7 @@ import { useState } from 'react';
 import CallWe from '../components/layout/CallWe';
 import Layout from '../components/layout/Layout'
 import Subtitle from '../components/reusable/Subtitle';
-import ContactForm from '../components/Section/Contact';
+import ContactSection from '../components/Section/Contact';
 import Gallery from '../components/Section/Gallery';
 import HeroSection from '../components/Section/HeroSection';
 import ServiceSection from '../components/Section/ServiceSection';
@@ -52,7 +52,7 @@ export default function Home(props) {
         <StepSection />
       </div>
       <Gallery />
-      <ContactForm />
+      <ContactSection />
     </Layout>
   );
 }

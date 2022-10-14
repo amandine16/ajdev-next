@@ -1,3 +1,4 @@
+import { BanIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import React from "react";
 import Title from "../reusable/Title";
@@ -37,6 +38,12 @@ export default function WhoAreWeSection() {
             Dialeledes pseudonar. Pogusa beguvis. Teraplasam. Klimathot
             infrakong. Tasigförsamhet. Diligt heterojågen. Ör. Telese nejåvis.
           </p>
+          <div>
+            <div className="flex items-center bg-purple ">
+              <BanIcon />
+
+            </div>
+          </div>
         </div>
       </div>
     </div>

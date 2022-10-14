@@ -2,6 +2,7 @@ import React from "react";
 import CardService from "../reusable/CardService";
 import Title from "../reusable/Title";
 
+
 export default function ServiceSection() {
   const cards = [
     {
@@ -13,7 +14,7 @@ export default function ServiceSection() {
         "Ecommerce - Site vitrine",
         "Réseaux sociaux",
       ],
-      buttonText: "<demander_un_devis>",
+      buttonText: "demander un devis",
     },
     {
       logoUrl: "card-identite-visuelle-icon.png",
@@ -24,7 +25,7 @@ export default function ServiceSection() {
         "Ecommerce - Site vitrine",
         "Réseaux sociaux",
       ],
-      buttonText: "<demander_un_devis>",
+      buttonText: "demander un devis",
     },
   ];
   return (

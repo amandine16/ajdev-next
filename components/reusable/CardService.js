@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Button from "../reusable/Button";
+
 
 export default function CardService({ data }) {
   return (
@@ -14,7 +16,7 @@ export default function CardService({ data }) {
       <p className='text-md text-center leading-[30px] text-black font-semibold pb-5'>
         {data.title}
       </p>
-      <ul>
+      <ul className="mb-4">
         {data.list.map((item, index) => {
           return (
             <li
@@ -25,10 +27,11 @@ export default function CardService({ data }) {
           );
         })}
       </ul>
-      <p
-        className={`mt-8 text-green text-lg cursor-pointer transition duration-500 hover:scale-[1.02] drop-shadow-[0_35px_35px_rgb(250,250,250)]  `}>
+      <Button text={data.buttonText}></Button>
+      {/* <p
+        className={`mt-8 bg-green text-lg cursor-pointer transition duration-500 hover:scale-[1.02] drop-shadow-[0_35px_35px_rgb(250,250,250)]  `}>
         {data.buttonText}
-      </p>
+      </p> */}
     </div>
   );
 }

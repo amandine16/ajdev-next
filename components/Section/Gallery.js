@@ -69,7 +69,7 @@ export default function Gallery() {
       setActiveOpacity("anim-opacity-simple");
     }, 100);
   };
-  const [activeOpacity, setActiveOpacity] = useState("");
+  const [activeOpacity, setActiveOpacity] = useState("anim-opacity-simple");
   return (
     <div className='py-20 container'>
       <Title
@@ -87,12 +87,11 @@ export default function Gallery() {
               <li
                 key={index}
                 onClick={() => onFiltered(item.title)}
-                className='hover:anim-scale-xs cursor-pointer flex flex-col justify-center items-center mr-6'>
-                <p>{item.title}</p>
+                className='hover:anim-scale-xs  cursor-pointer flex flex-col justify-center items-center mr-6'>
+                <p className={`${filtersValue === item.title ? "text-green" : "text-black"} hover:text-green transition duration-500 `}>{item.title}</p>
                 <div
-                  className={`bg-green  w-2 h-2 rounded-full drop-shadow mt-1 m-auto ${
-                    item.title === filtersValue ? "visible" : "invisible"
-                  }`}></div>
+                  className={`bg-purple  w-2 h-2 rounded-full shadow-lg mt-1 m-auto ${item.title === filtersValue ? "visible" : "invisible"
+                    }`}></div>
               </li>
             );
           })}
