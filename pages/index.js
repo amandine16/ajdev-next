@@ -13,27 +13,46 @@ import WhoAreWeSection from '../components/Section/WhoAreWeSection';
 
 export default function Home(props) {
   return (
-    <Layout >
+    <Layout>
       <CallWe />
       <HeroSection />
-      <div className="relative">
-        <div className="absolute left-0 top-0 z-0">
-          <Image src="/images/bg-who-left.png" width="600" height="600" objectFit='contain' objectPosition="left" />
+      <div className='relative'>
+        <div className='absolute left-0 top-0 z-0'>
+          <Image
+            src='/images/bg-who-left.png'
+            width='600'
+            height='600'
+            objectFit='contain'
+            objectPosition='left'
+            alt='icon decoratif'
+          />
         </div>
-        <div className="absolute right-0 top-0 z-0">
-          <Image src="/images/bg-who-right.png" width="600" height="600" objectFit='contain' objectPosition="right" />
+        <div className='absolute right-0 top-0 z-0'>
+          <Image
+            src='/images/bg-who-right.png'
+            width='600'
+            height='600'
+            objectFit='contain'
+            objectPosition='right'
+            alt='icon decoratif'
+          />
         </div>
         <WhoAreWeSection />
       </div>
       <ServiceSection />
-      <div className="relative">
-        <div className="absolute left-0 z-0 top-0 w-full min-h-[1000px]">
-          <Image src="/images/bg-step.png" layout='fill' objectPosition="center" />
+      <div className='relative'>
+        <div className='absolute left-0 z-0 top-0 w-full min-h-[1000px]'>
+          <Image
+            src='/images/bg-step.png'
+            layout='fill'
+            objectPosition='center'
+            alt='icon decoratif'
+          />
         </div>
         <StepSection />
       </div>
       <Gallery />
       <ContactForm />
     </Layout>
-  )
+  );
 }
