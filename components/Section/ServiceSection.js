@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../reusable/Button'
 import CardService from '../reusable/CardService'
 import Title from '../reusable/Title'
 
@@ -41,7 +42,10 @@ export default function ServiceSection() {
             </div>
             <div className='col-span-2'>
                 <Title title="Un service complet" subtitle="Nos_services" />
-                <p className='text-black text-sm font-light leading-[26px] mt-10'>Nous vous accompagnement dans la création de votre identité visuelle, de la création du logo jusqu’à la conception d’un site web ! En collaboration avec vous, nous vous proposerons une communication digitale et print en cohérence avec votre entreprise et votre stratégie commerciale. Nh’ésitez plus, contactez-nous !</p>
+                <p className='text-black text-sm font-light leading-[26px] mt-4'>Nous vous accompagnement dans la création de votre identité visuelle, de la création du logo jusqu’à la conception d’un site web ! En collaboration avec vous, nous vous proposerons une communication digitale et print en cohérence avec votre entreprise et votre stratégie commerciale. Nh’ésitez plus, contactez-nous !</p>
+                <div className="mt-4">
+                    <Button text="Demander un devis"></Button>
+                </div>
             </div>
         </div>
     )

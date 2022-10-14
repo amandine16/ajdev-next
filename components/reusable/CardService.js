@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from './Button'
 
 export default function CardService({ data, }) {
     return (
@@ -11,7 +12,7 @@ export default function CardService({ data, }) {
                     return <li key={index} className="text-black text-center font-light py-2 text-base" >{item}</li>
                 })}
             </ul>
-            <p className={`mt-8 text-green text-lg cursor-pointer transition duration-500 hover:scale-[1.02] drop-shadow-[0_35px_35px_rgb(250,250,250)]  `}>{data.buttonText}</p>
+            {/* <p className={`mt-8 text-green text-lg cursor-pointer transition duration-500 hover:scale-[1.02] drop-shadow-[0_35px_35px_rgb(250,250,250)]  `}>{data.buttonText}</p> */}
 
         </div>
     )
