@@ -28,17 +28,17 @@ export default function Header() {
     { name: "Accueil", href: "/", current: path === "/" ? true : false },
     {
       name: "Services",
-      href: "/#service",
-      current: path === "/#service" ? true : false,
+      href: "#services",
+      current: path === "/#services" ? true : false,
     },
     {
       name: "Qui sommes nous ?",
-      href: "/#whoareyou",
+      href: "#whoareyou",
       current: path === "/#whoareyou" ? true : false,
     },
     {
       name: "Contactez-nous",
-      href: "/#contact",
+      href: "#contact",
       current: path === "/#contact" ? true : false,
     },
   ];
@@ -54,7 +54,7 @@ export default function Header() {
             "bg-white shadow-sm lg:static lg:overflow-y-visible drop-shadow"
           )
         }>
-        {({ open }) => (
+        {({ open, close }) => (
           <>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
               <div className='relative justify-between items-center grid grid-cols-3 '>
@@ -62,10 +62,10 @@ export default function Header() {
                   <div className='flex-shrink-0 flex justify-center py-2'>
                     <a
                       href='#'
-                      className='relative flex items-center  h-[87px] w-[124px] '>
+                      className='relative flex items-center h-[70px] md:h-[87px] w-[124px] '>
                       <Image
                         className='my-2'
-                        src='/images/logo.png'
+                        src='/images/ajdev-logo.png'
                         alt='logo'
                         layout='fill'
                         objectFit='contain'
@@ -75,14 +75,16 @@ export default function Header() {
                 </div>
                 <div className='min-w-0 flex-1  justify-end    hidden lg:flex lg:col-span-2  '>
                   {navigation.map((item) => (
-                    <Link key={item.name} href={item.href}>
+                    <Link key={item.name} href={item.href}
+                      onClick={() => { reloadPath(); close()() }}
+                    >
                       <a
                         aria-current={item.current ? "page" : undefined}
                         className={classNames(
                           item.current ? "" : "",
                           " block rounded-md  px-3 text-base font-medium   text-black uppercase text-[16px]"
                         )}
-                        onClick={reloadPath}>
+                      >
                         {item.name}
                         <div
                           className={classNames(
@@ -113,22 +115,28 @@ export default function Header() {
               aria-label='Global'>
               <div className='max-w-3xl mx-auto px-2 pt-2 pb-3 space-y-1 sm:px-4'>
                 {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    aria-current={item.current ? "page" : undefined}
+
+
+                  <div key={item.name}
+                    onClick={() => { reloadPath(); close() }}
                     className={classNames(
                       item.current
-                        ? "bg-gray-100 text-gray-900"
-                        : "hover:bg-gray-50",
-                      "block rounded-md py-2 px-3 text-base font-medium"
-                    )}
-                    onClick={reloadPath}>
-                    {item.name}
-                  </a>
+                        ? "bg-gray-100  text-purple"
+                        : "hover:bg-gray-100",
+                      "block cursor-pointer rounded-md py-2 px-3 text-base font-medium text-black"
+                    )}>
+                    <Link
+                      href={item.href}
+                      aria-current={item.current ? "page" : undefined}
+
+                    >
+                      {item.name}
+                    </Link>
+                  </div>
+
                 ))}
               </div>
-              <div className='border-t border-gray-200 pt-4 pb-3'>
+              {/* <div className='border-t border-gray-200 pt-4 pb-3'>
                 <div className='max-w-3xl mx-auto px-4 flex items-center sm:px-6'>
                   <div className='flex-shrink-0'>
                     <img
@@ -152,7 +160,7 @@ export default function Header() {
                     <BellIcon className='h-6 w-6' aria-hidden='true' />
                   </button>
                 </div>
-              </div>
+              </div> */}
             </Popover.Panel>
           </>
         )}

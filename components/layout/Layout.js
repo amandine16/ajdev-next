@@ -1,6 +1,7 @@
 import Head from "next/head";
 import * as React from "react";
 import Footer from "./Footer";
+import Header from "./Header"
 
 export default function Layout(props) {
   const children = props.children;
@@ -24,6 +25,7 @@ export default function Layout(props) {
         <meta name='og:title' content='Titre du site' />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
+      <Header />
       <main className='bg-white'>{children} </main>
       <Footer />
     </>

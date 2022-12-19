@@ -29,21 +29,10 @@ export default function ServiceSection() {
     },
   ];
   return (
-    <div className='grid grid-cols-5 py-10 container gap-10'>
-      <div className='col-span-3'>
-        <div className='grid grid-cols-2 gap-10'>
-          {cards.map((card, index) => {
-            return (
-              <div key={index} className={`${index === 1 && "mt-20"}`}>
-                <CardService data={card} />
-              </div>
-            );
-          })}
-        </div>
-      </div>
+    <div id="services" className=' py-10 container '>
+      <Title title='Un service complet' subtitle='<Nos_services>' />
       <div className='col-span-2'>
-        <Title title='Un service complet' subtitle='<Nos_services>' />
-        <p className='text-black text-sm font-light leading-[26px] mt-10'>
+        <p className='text-black text-sm text-center md:text-left font-light leading-[26px] mt-4'>
           Nous vous accompagnement dans la création de votre identité visuelle,
           de la création du logo jusqu’à la conception d’un site web ! En
           collaboration avec vous, nous vous proposerons une communication
@@ -51,6 +40,16 @@ export default function ServiceSection() {
           stratégie commerciale. Nh’ésitez plus, contactez-nous !
         </p>
       </div>
+      <div className='grid grid-cols-2 gap-4 md:mt-10'>
+        {cards.map((card, index) => {
+          return (
+            <div key={index} className={`${index === 1 && "mt-20"} col-span-2 md:col-span-1`}>
+              <CardService data={card} />
+            </div>
+          );
+        })}
+      </div>
+
     </div>
   );
 }

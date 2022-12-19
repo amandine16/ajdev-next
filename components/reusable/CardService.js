@@ -27,7 +27,7 @@ export default function CardService({ data }) {
           );
         })}
       </ul>
-      <Button text={data.buttonText}></Button>
+      <Button text={data.buttonText} link=""></Button>
       {/* <p
         className={`mt-8 bg-green text-lg cursor-pointer transition duration-500 hover:scale-[1.02] drop-shadow-[0_35px_35px_rgb(250,250,250)]  `}>
         {data.buttonText}

@@ -23,14 +23,14 @@ export default function StepSection() {
   ];
 
   return (
-    <div className='py-20 w-full relative text-black '>
+    <div className='py-32 w-full relative text-black container'>
       <Title
         center
         title='Un accompagnement total pour un résultat optimal'
         subtitle='<comment_on_procède>'
       />
-      <div className='grid grid-cols-2 container pb-10 '>
-        <div className='col-span-1 relative min-h-[600px] w-full flex items-center '>
+      <div className='grid grid-cols-2 container md:pb-10 '>
+        <div className='col-span-2 order-2 md:order-1 md:col-span-1 relative min-h-[600px] w-full flex items-center '>
           <Image
             src='/images/img-mobile.png'
             layout='fill'
@@ -39,7 +39,7 @@ export default function StepSection() {
             alt='icone d un telephone'
           />
         </div>
-        <div className='col-span-1 z-10 flex items-center'>
+        <div className='col-span-2  md:mt-0 mt-20 md:col-span-1 md:order-2 order-1 flex z-10  items-center'>
           <ul>
             {steps.map((step, index) => {
               return (

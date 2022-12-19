@@ -5,46 +5,44 @@ import Title from "../reusable/Title";
 
 export default function WhoAreWeSection() {
   return (
-    <div className='container py-44 relative '>
+    <div id="whoareyou" className='container py-32  relative '>
       <Title title="L'Équipe AJDEV" subtitle='<une_équipe_motivée>' />
-      <div className='grid grid-cols-1 md:grid-cols-3  text-black'>
+      <div className='grid grid-cols-3  text-black'>
         {/* colone de gauche  */}
-        <div className='py-14 col-start-1 self-center'>
-          <h2 className='uppercase font-semibold md:text-center'>Amandine</h2>
-          <p className='md:text-center pb-4 text-pink'>
+        <div className=' md:col-span-1 col-span-3 mt-10 md:mt-0 flex flex-col justify-center '>
+          <h2 className='uppercase font-semibold text-center'>Amandine</h2>
+          <p className='md:text-center pb-4 text-pink text-center'>
             Développeuse Web - Designer
           </p>
-          <p className='font-light text-sm leading-[26px]'>
+          <p className='font-light text-sm leading-[26px] text-center'>
             Dialeledes pseudonar. Pogusa beguvis. Teraplasam. Klimathot
             infrakong. Tasigförsamhet. Diligt heterojågen. Ör. Telese nejåvis.
           </p>
         </div>
         {/* img de l'équipe */}
-        <div className=' w-full h-[400px]  relative lg:col-start-2  lg:row-start-1'>
+        <div className=' w-full h-[400px]  relative md:col-span-1 col-span-3'>
           <Image
             src='/images/photo-team.png'
             layout='fill'
             objectFit='contain'
             alt='picture team'
           />
+
         </div>
         {/* colone de droite  */}
-        <div className='py-10 lg:col-start-3 lg:row-start-1 self-center'>
-          <p className='uppercase font-semibold md:text-center '>JULIEN</p>
-          <p className='md:text-center pb-4 text-green'>
+        <div className=' md:col-span-1 col-span-3 mt-16 md:mt-0 flex flex-col justify-center'>
+          <p className='uppercase font-semibold text-center '>JULIEN</p>
+          <p className='md:text-center pb-4 text-green text-center'>
             Développeur Web - Intégrateur
           </p>
-          <p className='font-light text-sm leading-[26px] '>
+          <p className='font-light text-center text-sm leading-[26px] '>
             Dialeledes pseudonar. Pogusa beguvis. Teraplasam. Klimathot
             infrakong. Tasigförsamhet. Diligt heterojågen. Ör. Telese nejåvis.
           </p>
           <div>
-            <div className="flex items-center bg-purple ">
-              <BanIcon />
-
-            </div>
           </div>
         </div>
+
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ export default function Home(props) {
     <Layout>
       <CallWe />
       <HeroSection />
-      <div className='relative'>
+      <div className='relative mt-32'>
         <div className='absolute left-0 top-0 z-0'>
           <Image
             src='/images/bg-who-left.png'

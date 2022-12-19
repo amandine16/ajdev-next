@@ -12,8 +12,8 @@ export default function HeroSection() {
             title='Création de sites Web,  logos et cartes de visite.'
             subtitle='<agence_de_communication_La_Rochelle>'
           />
-          <div className='mt-8 text-center'>
-            <Button text='Être rappelé gratuitement' />
+          <div className='mt-8 flex justify-center md:justify-start text-center'>
+            <Button text='Être rappelé gratuitement' link="#contact" />
           </div>
         </div>
         <div className='  relative self-end lg:self-center '>
