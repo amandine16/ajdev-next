@@ -9,9 +9,10 @@ export default function HeroSection() {
       <div className=' h-full  flex flex-col lg:flex-row items-center lg:justify-between'>
         <div className='max-w-lg pt-24 pb-10 lg:pt-0 container'>
           <Title
-            title='Création de sites Web,  logos et cartes de visite.'
-            subtitle='<agence_de_communication_La_Rochelle>'
+            title='Création de sites Web, logos et cartes de visite.'
+            subtitle='<agence_de_communication_à_La_Rochelle>'
           />
+          <p className="text-gray-400 text-center md:text-left mt-4">Notre agence de création de sites web et de logos vous accompagne dans la réalisation de votre projet de communication digitale. Nous créons des sites vitrines et boutiques en ligne professionnels et attractifs, ainsi que des logos qui reflètent votre entreprise. Nous veillons à ce que votre site soit bien référencé afin d'attirer de nouveaux clients.</p>
           <div className='mt-8 flex justify-center md:justify-start text-center'>
             <Button text='Être rappelé gratuitement' link="#contact" />
           </div>

@@ -7,18 +7,23 @@ export default function StepSection() {
   const steps = [
     {
       icon: "meet",
-      title: "Étape 1: Rencontre",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem iure magni voluptate autem culpa minus! ",
+      title: "1 - Rencontre",
+
+
+
+
+
+      text: "Nous nous rencontrons pour la première fois et nous en sommes très heureux ! Nous échangeons autour d'un bon café !",
     },
     {
       icon: "meet",
-      title: "Étape 2: Rencontre",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem iure magni voluptate autem culpa minus! ",
+      title: "2 -  Étude de vos besoins",
+      text: "Nous discutons de votre projet et de vos objectifs, et échangeons sur les fonctionnalités et les éléments de design souhaités.",
     },
     {
       icon: "meet",
-      title: "Étape 3: Rencontre",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem iure magni voluptate autem culpa minus! ",
+      title: "3 - Devis personnalisé",
+      text: "Nous vous proposons un devis détaillé et un plan de projet incluant les étapes de développement, les délais et les coûts estimés.",
     },
   ];
 
@@ -52,7 +57,7 @@ export default function StepSection() {
                     </div>
                     <div>
                       <p className='font-bold text-md pb-2'>{step.title}</p>
-                      <p className='text-sm font-light leading-[26px]'>
+                      <p className='text-sm font-light leading-[26px] mb-4'>
                         {step.text}
                       </p>
                     </div>

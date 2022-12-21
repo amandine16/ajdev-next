@@ -6,7 +6,7 @@ import Button from "../reusable/Button";
 export default function CardService({ data }) {
   return (
     <div
-      className={`bg-white px-10 drop-shadow-xl rounded-[30px] pt-8 pb-10 flex justify-center items-center flex-col container transition duration-500 hover:scale-[1.02] `}>
+      className={`bg-white px-10  drop-shadow-[0_10px_30px_rgba(0,0,0,0.25)] rounded-[30px] pt-8 pb-10 flex justify-center items-center flex-col container transition duration-500 hover:scale-[1.02] `}>
       <Image
         src={`/images/${data.logoUrl}`}
         alt='création et refonte de site web'

@@ -14,7 +14,7 @@ export default function Contact(req, res) {
     });
     const mailOptions = {
         from: req.body.email,
-        to: "ajdevcontact@gmail.com",
+        to: "amandinedelavoie@gmail.com",
         subject: "demande de contact",
         text: `Message envoyé par ${req.body.email} : ${req.body.message}`,
     };

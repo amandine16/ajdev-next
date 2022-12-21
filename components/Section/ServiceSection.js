@@ -32,12 +32,12 @@ export default function ServiceSection() {
     <div id="services" className=' py-10 container '>
       <Title title='Un service complet' subtitle='<Nos_services>' />
       <div className='col-span-2'>
-        <p className='text-black text-sm text-center md:text-left font-light leading-[26px] mt-4'>
-          Nous vous accompagnement dans la création de votre identité visuelle,
-          de la création du logo jusqu’à la conception d’un site web ! En
-          collaboration avec vous, nous vous proposerons une communication
+        <p className='text-black text-sm text-center md:text-left font-light leading-[26px] mt-4 mb-10'>
+          Nous vous accompagnons dans la création de votre identité visuelle,
+          de la création du logo jusqu’à la conception d’un site web ou boutique en ligne ! En
+          collaboration avec nous, nous vous proposerons une communication
           digitale et print en cohérence avec votre entreprise et votre
-          stratégie commerciale. Nh’ésitez plus, contactez-nous !
+          stratégie commerciale. N’hésitez plus, contactez-nous !
         </p>
       </div>
       <div className='grid grid-cols-2 gap-4 md:mt-10'>

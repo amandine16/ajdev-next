@@ -110,7 +110,7 @@ export default function Gallery() {
     <div className=' md:py-20 container'>
       <Title
         title='Nos réalisations'
-        subtitle='<la_gallery_des_réalisations>'
+        subtitle='<nos_projets>'
       />
       <p className='text-sm font-light text-black leading-[26px] text-center md:text-left'>
         Dialeledes pseudonar. Pogusa beguvis. Teraplasam. Klimathot infrakong.
