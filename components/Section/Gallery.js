@@ -113,8 +113,7 @@ export default function Gallery() {
         subtitle='<nos_projets>'
       />
       <p className='text-sm font-light text-black leading-[26px] text-center md:text-left'>
-        Dialeledes pseudonar. Pogusa beguvis. Teraplasam. Klimathot infrakong.
-        Tasigförsamhet. Diligt heterojågen. Ör. Telese nejåvis.{" "}
+        Découvrez notre portfolio de projets de création de sites internet et laissez-vous inspirer par nos réalisations.
       </p>
       <div>
         {/* <ul className='text-black flex items-center justify-center mt-8'>
