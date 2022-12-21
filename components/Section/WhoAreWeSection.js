@@ -15,7 +15,7 @@ export default function WhoAreWeSection() {
             Développeuse Web - Designer
           </p>
           <p className='font-light text-sm leading-[26px] text-center'>
-            Amandine est une professionnelle passionnée de développement web et de design. Elle a 4 ans d'expérience dans le domaine et sait comment créer des sites web professionnels et attrayants, ainsi que des designs qui sortent du lot.
+            Amandine est une professionnelle passionnée de développement web et de design. Elle a 4 ans d&apos;expérience dans le domaine et sait comment créer des sites web professionnels et attrayants, ainsi que des designs qui sortent du lot.
           </p>
         </div>
         {/* img de l'équipe */}

@@ -68,7 +68,7 @@ export default function Contact(props) {
                         subtitle='<nous_contacter>'
                     />
                     <p className='text-sm font-light text-black leading-[26px] text-center md:text-left'>
-                        Si vous cherchez une agence de création de sites internet professionnelle et fiable pour réaliser votre projet, n'hésitez pas à nous contacter. Nous sommes impatients de vous aider à développer un site internet qui répondra à vos besoins et à vos objectifs.{" "}
+                        Si vous cherchez une agence de création de sites internet professionnelle et fiable pour réaliser votre projet, n&apos;hésitez pas à nous contacter. Nous sommes impatients de vous aider à développer un site internet qui répondra à vos besoins et à vos objectifs.{" "}
                     </p>
                     <div className="grid grid-cols-3 gap-4">
 
