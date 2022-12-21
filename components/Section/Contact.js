@@ -81,13 +81,13 @@ export default function Contact(props) {
                                 <p className="font-light text-center md:text-left ">Basé à Thairé, à proximité de La Rochelle</p>
                             </div>
                         </a>
-                        <a href="mailto:amandinedelavoie@gmail.com" className="flex mt-6 flex-col md:flex-row items-center  text-sm leading-[26px]  sm:col-span-1 col-span-3 md:col-span-3">
+                        <a href="mailto:ajdev1700@gmail.com" className="flex mt-6 flex-col md:flex-row items-center  text-sm leading-[26px]  sm:col-span-1 col-span-3 md:col-span-3">
                             <div className="bg-white shadow-md w-fit rounded-lg p-6">
                                 <MailIcon width={35} className='text-purple' />
                             </div>
                             <div className="text-black mt-4 md:mt-0  md:ml-4 ml-0">
                                 <p className="font-semibold text-center md:text-left">Email</p>
-                                <p className="font-light text-center md:text-left ">amandinedelavoie@gmail.com</p>
+                                <p className="font-light text-center md:text-left ">ajdev1700@gmail.com</p>
 
                             </div>
 
