@@ -18,12 +18,11 @@ export default function ServiceSection() {
     },
     {
       logoUrl: "card-identite-visuelle-icon.png",
-      title: "Création et refonte de site Web",
+      title: "Communication digitale et print",
       list: [
-        "Référencement Web / SEO",
-        "Design graphique / UX/UI",
-        "Ecommerce - Site vitrine",
-        "Réseaux sociaux",
+        "Création de logos",
+        "Mise en forme de flyers et carte de visites",
+        "Créations de contenus pour les réseaux sociaux",
       ],
       buttonText: "demander un devis",
     },
