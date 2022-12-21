@@ -129,7 +129,7 @@ export default function Contact(props) {
                                 ) : (
                                     <Image src={"/images/check.svg"} height='12' width='16' alt='' />
                                 )}
-                                <p className='ml-2'>{formFeedback.message}</p>
+                                <p className='ml-2 text-black text-sm font-light'>{formFeedback.message}</p>
                             </>
                         )}
                     </div>
