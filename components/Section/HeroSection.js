@@ -23,6 +23,8 @@ export default function HeroSection() {
             width={600}
             height={500}
             alt='back screen'
+            placeholder="blur"
+            blurDataURL="/images/hero-image.png"
           />
         </div>
       </div>

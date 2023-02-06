@@ -12,6 +12,8 @@ export default function CardService({ data }) {
         alt='création et refonte de site web'
         width='120'
         height='120'
+        blurDataURL={`/images/${data.logoUrl}`}
+        placeholder="blur"
       />
       <p className='text-md text-center leading-[30px] text-black font-semibold pb-5'>
         {data.title}

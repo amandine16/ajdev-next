@@ -41,6 +41,8 @@ export default function StepSection() {
             layout='fill'
             objectFit='contain'
             objectPosition='center'
+            blurDataURL="/images/img-mobile.png"
+            placeholder="blur"
             alt='icone d un telephone'
           />
         </div>

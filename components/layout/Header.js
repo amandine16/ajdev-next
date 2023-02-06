@@ -67,6 +67,8 @@ export default function Header() {
                         className='my-2'
                         src='/images/ajdev-logo.png'
                         alt='logo'
+                        blurDataURL="/images/ajdev-logo.png"
+                        placeholder="blur"
                         layout='fill'
                         objectFit='contain'
                       />

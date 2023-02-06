@@ -158,6 +158,8 @@ export default function Gallery() {
                         objectFit='cover'
                         className='rounded-[20px] group-hover:anim-scale-xs'
                         alt='preview website'
+                        blurDataURL={project.imageURL}
+                        placeholder="blur"
                       />
                       {/* <div className='h-[80%] w-[80%] p-3 flex justify-center items-center  group-hover:bg-[rgba(255,255,255,0.7)] opacity-0  group-hover:anim-opacity absolute rounded-[30px] top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 '>
                     <div className='z-10 opacity-0  group-hover:anim-opacity text-black text-center'>

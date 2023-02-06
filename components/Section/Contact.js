@@ -125,9 +125,9 @@ export default function Contact(props) {
                         {formFeedback && (
                             <>
                                 {formFeedback.error ? (
-                                    <Image src={"/images/alert.svg"} height='12' width='16' alt='' />
+                                    <Image src={"/images/alert.svg"} blurDataURL="/images/alert.svg" placeholder="blur" height='12' width='16' alt='' />
                                 ) : (
-                                    <Image src={"/images/check.svg"} height='12' width='16' alt='' />
+                                    <Image src={"/images/check.svg"} height='12' width='16' alt='' placeholder="blur" blurDataURL="/images/check.svg" />
                                 )}
                                 <p className='ml-2 text-black text-sm font-light'>{formFeedback.message}</p>
                             </>

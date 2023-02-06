@@ -22,6 +22,8 @@ export default function Home(props) {
             src='/images/bg-who-left.png'
             width='600'
             height='600'
+            blurDataURL='/images/bg-who-left.png'
+            placeholder='blur'
             objectFit='contain'
             objectPosition='left'
             alt='icon decoratif'
@@ -33,6 +35,8 @@ export default function Home(props) {
             width='600'
             height='600'
             objectFit='contain'
+            placeholder='blur'
+            blurDataURL='/images/bg-who-right.png'
             objectPosition='right'
             alt='icon decoratif'
           />
@@ -47,6 +51,8 @@ export default function Home(props) {
             layout='fill'
             objectPosition='center'
             alt='icon decoratif'
+            placeholder='blur'
+            blurDataURL='/images/bg-step.png'
           />
         </div>
         <StepSection />
