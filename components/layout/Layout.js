@@ -33,17 +33,17 @@ export default function Layout(props) {
         cookieIsAccepted &&
         <>
           <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-BRHWM9GCR5"
+            src="https://www.googletagmanager.com/gtag/js?id=G-D800NS5C39"
             strategy="afterInteractive"
           />
           <Script id="google-analytics" strategy="afterInteractive">
             {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){window.dataLayer.push(arguments);}
-                    gtag("js", new Date());
-					
-                    gtag("config", "G-BRHWM9GCR5");
-                    `}
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag("js", new Date());
+      
+                gtag("config", "G-D800NS5C39");
+                `}
           </Script>
         </>
 
