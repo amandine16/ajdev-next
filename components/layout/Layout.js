@@ -33,7 +33,7 @@ export default function Layout(props) {
         cookieIsAccepted &&
         <>
           <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-D800NS5C39"
+            src="https://www.googletagmanager.com/gtag/js?id=G-BRHWM9GCR5"
             strategy="afterInteractive"
           />
           <Script id="google-analytics" strategy="afterInteractive">
@@ -42,7 +42,7 @@ export default function Layout(props) {
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag("js", new Date());
       
-                gtag("config", "G-D800NS5C39");
+                gtag("config", "G-BRHWM9GCR5");
                 `}
           </Script>
         </>
