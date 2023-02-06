@@ -70,10 +70,8 @@ export default function Layout(props) {
           expires={150}
           debug={true}>
           Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site. Vous pouvez en savoir plus sur les cookies que nous utilisons ou les désactiver.
-          <Link href="/privacy-policy">
-            <a className="underline ml-1 cursor-pointer">
-              En savoir plus
-            </a>
+          <Link href="/privacy-policy" className="underline ml-1 cursor-pointer">
+            En savoir plus
           </Link>
         </CookieConsent>
       }
