@@ -12,7 +12,10 @@ export default function HeroSection() {
             title='Création de sites Web, logos et cartes de visite.'
             subtitle='<agence_de_communication_à_La_Rochelle>'
           />
-          <p className="text-black text-sm font-light leading-[26px] mb-4 text-regular text-center md:text-left mt-4">Notre agence de création de sites web et de logos vous accompagne dans la réalisation de votre projet de communication digitale. Nous créons des sites vitrines et boutiques en ligne professionnels et attractifs, ainsi que des logos qui reflètent votre entreprise. Nous veillons à ce que votre site soit bien référencé afin d&apos;attirer de nouveaux clients.</p>
+          <p className="text-black text-sm font-light leading-[26px] mb-4 text-regular text-center md:text-left mt-4">
+          Notre agence de création de <strong className="font-[600]">sites web</strong> basé à Tahiré, proche de La Rochelle, vous accompagne dans la réalisation de votre projet de communication digitale. Nous développons des <strong className="font-[600]">sites web</strong> vitrines et <strong className="font-[600]">e-commerce</strong> (<strong className="font-[600]">boutique en ligne</strong>) professionnels et attractifs, ainsi que des <strong className="font-[600]">logos</strong>, <strong className="font-[600]">carte de visite</strong> ... qui reflètent votre entreprise. Nous veillons à ce que votre site soit bien référencé afin d&apos;attirer de nouveaux clients.  </p>
+
+          <p className="text-black text-sm font-light leading-[26px] mb-4 text-regular text-center md:text-left mt-4">Devenez maître de votre business en ligne avec des outils simples et un design travaillé ! <strong className="font-[600]">Contactez-nous pour en savoir plus.</strong></p>
           <div className='mt-8 flex justify-center md:justify-start text-center'>
             <Button text='Être rappelé gratuitement' link="#contact" />
           </div>

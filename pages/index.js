@@ -16,7 +16,7 @@ export default function Home(props) {
     <Layout>
       <CallWe />
       <HeroSection />
-      <div className='relative mt-32'>
+      <div className='relative  lg:mt-0 mt-32'>
         <div className='absolute left-0 top-0 z-0'>
           <Image
             src='/images/bg-who-left.png'
@@ -39,6 +39,7 @@ export default function Home(props) {
             blurDataURL='/images/bg-who-right.png'
             objectPosition='right'
             alt='icon decoratif'
+            className='object-cover'
           />
         </div>
         <WhoAreWeSection />
@@ -50,6 +51,7 @@ export default function Home(props) {
             src='/images/bg-step.png'
             layout='fill'
             objectPosition='center'
+            className='object-cover'
             alt='icon decoratif'
             placeholder='blur'
             blurDataURL='/images/bg-step.png'

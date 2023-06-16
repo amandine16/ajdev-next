@@ -81,7 +81,7 @@ export default function Contact(props) {
                                 <p className="font-light text-center md:text-left ">Basé à Thairé, à proximité de La Rochelle</p>
                             </div>
                         </a>
-                        <a href="mailto:ajdev17000@gmail.com" className="flex mt-6 flex-col md:flex-row items-center  text-sm leading-[26px]  sm:col-span-1 col-span-3 md:col-span-3">
+                      {/*  <a href="mailto:ajdev17000@gmail.com" className="flex mt-6 flex-col md:flex-row items-center  text-sm leading-[26px]  sm:col-span-1 col-span-3 md:col-span-3">
                             <div className="bg-white shadow-md w-fit rounded-lg p-6">
                                 <MailIcon width={35} className='text-purple' />
                             </div>
@@ -91,7 +91,7 @@ export default function Contact(props) {
 
                             </div>
 
-                        </a>
+    </a>*/}
                         <a href="tel:0750987296" className="flex flex-col md:flex-row mt-6 items-center text-sm leading-[26px]  sm:col-span-1 col-span-3 md:col-span-3 ">
                             <div className="bg-white shadow-md w-fit rounded-lg p-6">
                                 <PhoneIcon width={35} className='text-purple' />

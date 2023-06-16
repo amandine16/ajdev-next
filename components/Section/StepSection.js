@@ -6,22 +6,17 @@ import Title from "../reusable/Title";
 export default function StepSection() {
   const steps = [
     {
-      icon: "meet",
+      icon: "/images/step-1.svg",
       title: "1 - Rencontre",
-
-
-
-
-
       text: "Nous nous rencontrons pour la première fois et nous en sommes très heureux ! Nous échangeons autour d'un bon café !",
     },
     {
-      icon: "meet",
+      icon:  "/images/step-2.svg",
       title: "2 -  Étude de vos besoins",
       text: "Nous discutons de votre projet et de vos objectifs, et échangeons sur les fonctionnalités et les éléments de design souhaités.",
     },
     {
-      icon: "meet",
+      icon:  "/images/step-3.svg",
       title: "3 - Devis personnalisé",
       text: "Nous vous proposons un devis détaillé et un plan de projet incluant les étapes de développement, les délais et les coûts estimés.",
     },
@@ -53,8 +48,8 @@ export default function StepSection() {
                 <li key={index}>
                   <div className='flex'>
                     <div className='line '>
-                      <div className='bg-white rounded-full p-4 drop-shadow text-purple'>
-                        <UserGroupIcon className=' h-[20px] w-[20px]' />
+                      <div className='w-14 h-14 bg-white rounded-full flex items-center justify-center drop-shadow text-purple'>
+                        <Image src={step.icon} width={30} height={30} alt='icon decoratif' className="w-full h-full " />
                       </div>
                     </div>
                     <div>

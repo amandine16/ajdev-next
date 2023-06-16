@@ -31,68 +31,61 @@ export default function Gallery() {
 
   const projects = [
     {
-      title: "projet 1",
+      title: "Voyages Extraordinaires",
       imageURL:
         "/images/voyages-extra.png",
-      description: "lorem ipsum fejife fehifhei",
+      description: "Site de voyage",
       linkURL: "https://voyages-extraordinaires-next.vercel.app/",
       category: "Sites Web",
-      active: true
+      active: false
     },
     {
-      title: "projet 2",
+      title: "Vetinparis",
       imageURL: "/images/vetinparis.png",
-      description: "Lfreofir heru heuzhvezi hzehfze",
+      description: "Site de vétérinaire à paris",
       linkURL: "https://vetinparis.com/",
+      category: "Sites Web",
+      active: false
+    },
+    {
+      title: "Ronan charles",
+      imageURL: "/images/ronan-charles.png",
+      description: "Site de ronan charles - artiste peintre",
+      linkURL: "https://ronan-charles.com/",
+      category: "Cartes de visites",
+      active: false
+    },
+    {
+      title: "Izigym",
+      imageURL: "/images/izigym-ajdev.png",
+      description: "Salle de sport izigym - fitness cardio musculation à aigrefeuille d'aunis",
+      linkURL: "https://izigym.fr/",
       category: "Sites Web",
       active: true
     },
     {
-      title: "projet 3",
-      imageURL: "/images/ronan-charles.png",
-      description: "FIer jerifjgeorz fjze",
-      linkURL: "https://ronan-charles.com/",
-      category: "Cartes de visites",
-      active: true
-    },
-    {
-      title: "projet 4",
+      title: "La boitazik",
       imageURL: "/images/laboitazik.png",
-      description: "fezjife jfiezojf ozef",
+      description: "Site de la boitazik - Site de création et diffusion de spectacles musicaux à La Rochelle",
       linkURL: "https://www.laboitazik.com/",
-      category: "Logos",
+      category: "Sites Web",
       active: true
     },
-    {
-      title: "projet 5",
-      imageURL: "/images/probleme-vefa.png",
-      description: "fezjife jfiezojf ozef",
-      linkURL: "",
-      category: "Logos",
-      active: false
-    },
-    {
-      title: "projet 6",
-      imageURL: "/images/us-aigrefeuille.png",
-      description: "fezjife jfiezojf ozef",
-      linkURL: "",
-      category: "Logos",
-      active: false
-    },
+ 
     {
       title: "projet 7",
       imageURL: "/images/barbier.png",
-      description: "fezjife jfiezojf ozef",
+      description: "Site d'un barbier",
       linkURL: "https://hair-dresser-nextjs.vercel.app/",
-      category: "Logos",
+      category: "Sites Web",
       active: true
     },
     {
       title: "projet 8",
       imageURL: "/images/pizzeria.png",
-      description: "fezjife jfiezojf ozef",
+      description: "Site d'une pizzeria",
       linkURL: "https://restaurant-next-erh5.vercel.app/",
-      category: "Logos",
+      category: "Sites Web",
       active: true
     },
   ];
