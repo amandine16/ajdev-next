@@ -19,15 +19,16 @@ export default function Layout(props) {
           href='https://fonts.gstatic.com'
           crossOrigin=''
         />
-        <title>AJDEV</title>
-        <meta name='description' content='Description du site' />
+        <title>AJDEV - Agence de communication digitale à Thairé, à proximité de La Rochelle 17000</title>
+        <meta name='description' content='AJDEV - Agence de communication digitale à La Rochelle 17000 - Création de sites internet et e-commerce (boutique en ligne) - Accompagnement dans la création de votre communication digitale complète (logos, flyer, carte de visite ...)' />
         <meta
           property='og:image'
-          content={"https://site.com/image-de-partage-fb.png"}
+          content={"/images/logo.png"}
         />
-        <meta name='og:title' content='Titre du site' />
+        <meta name='og:title' content='AJDEV - Agence de communication digitale à Thairé, à proximité de La Rochelle 1700' />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
+     
 
       {
         cookieIsAccepted &&
